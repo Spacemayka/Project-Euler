@@ -15,3 +15,6 @@ def find_specific_prime(thisPrime):
 			return x
 
 print(find_specific_prime(10001))
+
+
+
