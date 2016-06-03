@@ -101,8 +101,6 @@ my_grid = "37107287533902102798797998220837590246510135740250\n\
 
 
 
-
-
 def add_lines(the_grid):
 	final_sum = 0
 	my_list = the_grid.splitlines()

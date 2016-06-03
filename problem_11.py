@@ -1,13 +1,5 @@
 # problem 11: https://projecteuler.net/problem=11
 
-# import numpy as np
-# x = np.zeros((3, 4)) # returns an array with those demensions filled with zeros
-# x[1,2] = 5
-# print(x)
-
-# make the given array into lists each containing one row of the numbers
-# copy those arrays onto the new 3d array using a loop for each list 
-
 
 # make the given numbers into one long list
 def grid_to_list(grid):
@@ -78,11 +70,7 @@ print(find_largest_product(the_grid))
 
 
 # test
-
-
-#print(check_down_left(grid_to_list(the_grid)))
-
-
+# print(check_down_left(grid_to_list(the_grid)))
 
 # test for index in the grid:
 # final_grid = grid_to_list(the_grid)
@@ -90,7 +78,10 @@ print(find_largest_product(the_grid))
 
 
 
-
+# import numpy as np
+# x = np.zeros((3, 4)) # returns an array with those demensions filled with zeros
+# x[1,2] = 5
+# print(x)
 
 
 

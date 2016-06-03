@@ -6,18 +6,19 @@
 # check if number is prime
 # print
 
+import math
 
 def isPrime(n):
-	for x in range(2, n/2):
+	for x in range(2, int(math.ceil(n/2))):
 		if n % x == 0:
 			return False
 	return True
 
 def FindLargestPrimeFactor(the_num):	
-	for counter in range(1, thenum):
+	for counter in range(1, the_num):
 		if the_num % counter == 0:
 			quotient = the_num / counter
-			if checkprime(quotient):
+			if isPrime(quotient):
 				return quotient
 
-print(FindLargestPrimeFactor(1000000))
+print(FindLargestPrimeFactor(600851475143))
